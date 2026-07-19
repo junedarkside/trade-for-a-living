@@ -8,7 +8,12 @@
 
 **Updated:** 2026-07-19 (session #8)
 
-**Achieved this session (#8) — Deep Research: Strategy Selection Framework:**
+**Achieved this session (#9) — Deep Research: Edge & Expectancy:**
+- 3-agent parallel research: expectancy math + R-multiples, empirical win rates, edge validation methodology.
+- `wiki/Edge & Expectancy.md`: 126 → **267 lines**. Added: empirical win rates (iron condor managed 82%, strangle 75–80%); butterfly > condor on expectancy; VRP magnitude (85% IV > RV, half-life 3.1d); walk-forward efficiency table; White's RC + Hansen's SPA data-snooping tests; drawdown non-linearity + Triple Penance Rule; Monte Carlo robustness; Kelly fractions with drawdown math; 7-stage professional validation gate. 14 sources.
+- `raw/edge-and-expectancy.md`: full rewrite from research.
+
+**Achieved previous session (#8) — Deep Research: Strategy Selection Framework:**
 - 3-agent parallel research: vol regime classification (TastyTrade backtested thresholds, IV Rank vs IV Percentile), trend regime classification (Hurst exponent, ADX source, GEX, regime base rates), Thai SET50 specifics + position sizing by regime (Wysocki 2025 Kelly-IV hybrid).
 - `wiki/Strategy Selection Framework.md`: 130 → **321 lines**. Added IV Rank/Percentile distinction, calibrated thresholds with win-rate data, Hurst exponent classifier, regime base rates, position sizing per quadrant (Kelly-IV hybrid), regime transition signals, Thai-specific TVIX/SEV/AGARCH/election cycle. 14 sources cited.
 - `raw/strategy-selection-framework.md`: full rewrite from research.
