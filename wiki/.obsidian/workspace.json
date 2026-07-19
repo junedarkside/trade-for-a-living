@@ -178,6 +178,14 @@
   },
   "active": "54bffc4804dbdb80",
   "lastOpenFiles": [
+    "Put-Call Parity.md",
+    "Expiration.md",
+    "Assignment.md",
+    "TFEX Market Structure.md",
+    "Margin Mechanics.md",
+    "IV Skew, Smile & Surface.md",
+    "Implied Volatility.md",
+    "Volatility Risk Premium.md",
     "Futures — Basics.md",
     "NVDR.md",
     "Settlement.md",
@@ -195,14 +203,6 @@
     "Rho.md",
     "Vega.md",
     "Theta.md",
-    "Gamma.md",
-    "Delta.md",
-    "Greeks.md",
-    "Options — Basics.md",
-    "Intrinsic and Extrinsic Value.md",
-    "Moneyness.md",
-    "Premium.md",
-    "Strike Price.md",
-    "Short Put.md"
+    "Gamma.md"
   ]
 }

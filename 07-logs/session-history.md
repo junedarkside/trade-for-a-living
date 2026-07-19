@@ -6,6 +6,22 @@ Newest at top.
 
 ---
 
+## Session #3 — 2026-07-19
+
+**Achieved:**
+- **Gap-scan + roadmap**: ran exploratory scan on full vault (~51 articles).
+  Produced tiered pro-trader knowledge-gap plan (5 tiers, 24 items) — see
+  `/Users/charuwatnaranong/.claude/plans/check-vault-scan-knowkedge-sprightly-wolf.md`.
+- **Phase A ingest (instrument axis complete)**:
+  - `/ingest raw/spot-basics.md` → `wiki/Spot — Basics.md` (instrument hub) + 4 glossary (Board Lot, Tick Size, Bid-Ask Spread, Settlement) + `wiki/NVDR.md` (Thai-specific wrapper).
+  - `/ingest raw/futures-basics.md` → `wiki/Futures — Basics.md` (instrument hub, replaces empty stub; full Thai TFEX context + worked S50 example).
+- **Instruments axis now complete**: Spot, Futures, Options all have instrument-hub articles. Resolves red-links in Spot — Basics, Options — Basics, Futures — Basics.
+- **Vault growth**: ~51 → **58 wiki articles** (Spot + Futures repair + 4 glossary + NVDR + 2 new).
+- **Aliases added**: NVDR, TSD, GTC, MTM, SSF (5 new short forms → canonical).
+- **Plan-mode workflow established** for next phases: Phase B blocked on user-supplied raw notes for IV family + Thai market structure + margin/assignment.
+
+---
+
 ## Session #2 — 2026-07-19
 
 **Achieved:**

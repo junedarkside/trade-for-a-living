@@ -28,7 +28,11 @@ sections below once the pipeline runs; until then, use the manual navigation.
   [[Delta-Neutral Hedging]] · [[Dynamic Hedging]] · [[Portfolio Margin]] ·
   [[Contango]] · [[Backwardation]] · [[Roll Yield]] · [[Basis]] ·
   [[Position Greeks]] · [[Greeks in Practice]] · [[Risk Management]] ·
-  [[Options Risk Management]] · [[Pre-Trade Checklist]]
+  [[Options Risk Management]] · [[Pre-Trade Checklist]] ·
+  [[Volatility Risk Premium]] · [[Implied Volatility]] ·
+  [[IV Skew, Smile & Surface]] · [[Margin Mechanics]] ·
+  [[TFEX Market Structure]] · [[Assignment]] · [[Expiration]] ·
+  [[Put-Call Parity]]
 <!-- olw: auto-concepts -->
 
 ## Greeks

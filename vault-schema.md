@@ -67,6 +67,7 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 | FC | Futures Collar |
 | RR | Risk Reversal |
 | SynF | Synthetic Futures |
+| PCP | Put-Call Parity |
 | MLO | Multi-Leg Order |
 | BM | Black Model |
 | DNH | Delta-Neutral Hedging |
@@ -90,6 +91,14 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 | GTC | Good-Till-Cancelled |
 | MTM | Mark-to-Market |
 | SSF | Single-Stock Future |
+| VRP | Volatility Risk Premium |
+| IV | Implied Volatility |
+| RV | Realized Volatility |
+| HV | Historical Volatility |
+| GEX | Gamma Exposure |
+| IM | Initial Margin |
+| MM | Maintenance Margin |
+| MTM | Mark-to-Market |
 | Δ, delta | Delta |
 | Γ, gamma | Gamma |
 | Θ, theta | Theta |
