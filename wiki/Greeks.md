@@ -45,7 +45,14 @@ trader. Strategy selection = picking a Greeks profile.
 - Time passes → theta drains long options; gamma concentrates near ATM.
 - Spot moves → delta drifts (driven by gamma); ITM options approach ±1 delta.
 - Volatility moves → vega dominates short-term P&L around events.
-- Multi-leg Greeks = sum of each leg's Greeks.
+- Multi-leg Greeks = sum of each leg's Greeks — see [[Position Greeks]] for the
+  full framework (Taylor expansion, hedge sizing, design patterns).
+
+## From theory to practice
+- For the trader-focused view (sizing, hedging, trade templates, pre-trade
+  checklists, common mistakes), see [[Greeks in Practice]].
 
 ## Sources
 [^1]: `raw/greeks-overview.md`
+[^2]: `raw/greeks-trading-practice.md`
+[^3]: youtube.com — Greeks primer + position Greeks walkthrough.

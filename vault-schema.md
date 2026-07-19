@@ -60,6 +60,40 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 | OI | Open Interest |
 | IV | Implied Volatility |
 | IC | Iron Condor |
+| PPF | Protective Put on Future |
+| CCF | Covered Call on Future |
+| PCSF | Protective Call on Short Future |
+| CPSF | Covered Put on Short Future |
+| FC | Futures Collar |
+| RR | Risk Reversal |
+| SynF | Synthetic Futures |
+| MLO | Multi-Leg Order |
+| BM | Black Model |
+| DNH | Delta-Neutral Hedging |
+| PM | Portfolio Margin |
+| C | Contango |
+| B | Backwardation |
+| RY | Roll Yield |
+| Bs | Basis |
+| Cal | Calendar Spread |
+| Diag | Diagonal Spread |
+| LC | Long Call |
+| SC | Short Call |
+| LP | Long Put |
+| SP | Short Put |
+| K, strike | Strike Price |
+| Prem | Premium |
+| ITM, ATM, OTM | Moneyness |
+| IV, EV, time-value | Intrinsic and Extrinsic Value |
+| Δ, delta | Delta |
+| Γ, gamma | Gamma |
+| Θ, theta | Theta |
+| ν, vega | Vega |
+| ρ, rho | Rho |
+| GiP | Greeks in Practice |
+| ORM | Options Risk Management |
+| PTC | Pre-Trade Checklist |
+| DH | Dynamic Hedging |
 
 ## Tag taxonomy
 

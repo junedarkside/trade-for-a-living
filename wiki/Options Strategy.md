@@ -21,6 +21,12 @@ speculating on price moves — based on your outlook for the underlying asset.
 
 ## Strategy index
 
+### Building blocks (the four atoms)
+- [[Long Call]] — buy a call; bullish with capped loss = premium.
+- [[Short Call]] — write a call (often covered or in a spread).
+- [[Long Put]] — buy a put; bearish or hedge with capped loss = premium.
+- [[Short Put]] — write a put (often cash-secured or in a spread).
+
 ### Income
 - [[Covered Call]] — own stock, write a call against it.
 - [[Cash-Secured Put]] — write a put, hold cash to buy if assigned.
@@ -56,6 +62,9 @@ Depends on:
 - Compare payoff shapes at a glance: [[Strategy Payoff Table]].
 - Read the [[Options Chain]] to pick strikes and expiries for any strategy.
 - Combine strategies into a book: [[Multi-Strategy Options]].
+- Before sizing any trade: review the [[Risk Management]] framework and the
+  practical [[Options Risk Management]] playbook.
+- Use the [[Pre-Trade Checklist]] before every entry.
 - Paper-trade before risking capital.
 
 ## Sources

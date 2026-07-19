@@ -15,12 +15,29 @@ sections below once the pipeline runs; until then, use the manual navigation.
 ## Strategies
 - [[Covered Call]] · [[Cash-Secured Put]] · [[Protective Put]] · [[Collar]] ·
   [[Long Straddle]] · [[Strangle]] · [[Vertical Spread]] · [[Iron Condor]] ·
-  [[Iron Butterfly]] · [[Butterfly Spread]]
+  [[Iron Butterfly]] · [[Butterfly Spread]] · [[Protective Put on Future]] ·
+  [[Covered Call on Future]] · [[Protective Call on Short Future]] ·
+  [[Covered Put on Short Future]] · [[Futures Collar]] · [[Risk Reversal]] ·
+  [[Synthetic Futures]] · [[Calendar Spread]] · [[Diagonal Spread]] ·
+  [[Long Call]] · [[Short Call]] · [[Long Put]] · [[Short Put]]
 <!-- olw: auto-strategies -->
 
 ## Concepts
-- [[Greeks]] · [[Options Strategy]] · [[Options Chain]] · [[Multi-Strategy Options]]
+- [[Greeks]] · [[Options Strategy]] · [[Options Chain]] · [[Multi-Strategy Options]] ·
+  [[Options — Basics]] · [[Multi-Leg Order]] · [[Black Model]] ·
+  [[Delta-Neutral Hedging]] · [[Dynamic Hedging]] · [[Portfolio Margin]] ·
+  [[Contango]] · [[Backwardation]] · [[Roll Yield]] · [[Basis]] ·
+  [[Position Greeks]] · [[Greeks in Practice]] · [[Risk Management]] ·
+  [[Options Risk Management]] · [[Pre-Trade Checklist]]
 <!-- olw: auto-concepts -->
+
+## Greeks
+- [[Delta]] · [[Gamma]] · [[Theta]] · [[Vega]] · [[Rho]]
+<!-- olw: auto-greeks -->
+
+## Glossary
+- [[Strike Price]] · [[Premium]] · [[Moneyness]] · [[Intrinsic and Extrinsic Value]]
+<!-- olw: auto-glossary -->
 
 ## Instruments
 - _seed: see `raw/options-basics.md`, `raw/futures-basics.md`, `raw/spot-basics.md`

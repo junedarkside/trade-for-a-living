@@ -68,6 +68,9 @@ OTM when IV high + theta favorable; buy OTM when expecting vol expansion.[^3]
 - [[Options Strategy]] (single-strategy selection) · [[Options Chain]] (strike
   picker) · [[Greeks]] (book-level risk = sum of leg Greeks) · every building
   block above.
+- [[Risk Management]] (position sizing, leverage control, scenario testing across the book).
+- [[Options Risk Management]] (sizing formula, exit rules, hedging toolkit) ·
+  [[Pre-Trade Checklist]] (one-page reference).
 
 ## Sources
 [^1]: `raw/multi-strategy-options.md`
