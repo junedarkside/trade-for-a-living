@@ -70,7 +70,8 @@ P&L
 
 ## Related
 - [[Options Strategy]] · [[Protective Put]] · [[Covered Call]] ·
-  [[Options Chain]] (pick floor/cap strikes via OI) · [[Greeks]]
+  [[Options Chain]] (pick floor/cap strikes via OI) · [[Greeks]] ·
+  [[SET50 Futures]] · [[SET50 Options]]
 
 ## Sources
 [^1]: `raw/options-strategies-overview.md`

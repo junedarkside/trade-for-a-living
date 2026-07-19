@@ -1,7 +1,7 @@
 ---
 title: Implied Volatility
 type: concept
-status: learning
+status: reviewed
 tags: [options, derivatives, market/thailand]
 aliases: [IV, Implied Vol, IVol]
 ---

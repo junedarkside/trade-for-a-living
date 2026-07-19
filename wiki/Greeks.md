@@ -1,7 +1,7 @@
 ---
 title: Greeks
 type: concept
-status: learning
+status: reviewed
 tags: [options, derivatives, greek/delta, greek/gamma, greek/theta, greek/vega, greek/rho]
 ---
 
@@ -51,6 +51,22 @@ trader. Strategy selection = picking a Greeks profile.
 ## From theory to practice
 - For the trader-focused view (sizing, hedging, trade templates, pre-trade
   checklists, common mistakes), see [[Greeks in Practice]].
+
+## Example — SET50 context
+
+S50 ATM call: **spot 890, strike 900, 30 DTE, σ = 20%, r = 1.5%**.
+
+| Greek | Value | Interpretation |
+|-------|-------|----------------|
+| **Delta** | +0.42 | Position moves ฿84/point (0.42 × ฿200 multiplier) |
+| **Gamma** | +0.018 | Delta changes 0.018 per 1-point move in S50 |
+| **Theta** | −0.35 pts/day | Loses ≈ ฿70/day (0.35 × ฿200) from time decay |
+| **Vega** | +0.62 pts / 1% vol | Gains ฿124 per +1 vol-point move in IV |
+| **Rho** | +0.08 | Minor; ฿16 per +1% rate move |
+
+**Reading:** if S50 rallies 10 points → delta gain ≈ 4.2 index points (฿840).
+But gamma will push delta to ~0.60, so a further 10-point rally earns even more.
+If market flat for 7 days → theta costs ≈ ฿490 regardless of direction.
 
 ## Sources
 [^1]: `raw/greeks-overview.md`

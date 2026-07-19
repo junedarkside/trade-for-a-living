@@ -40,7 +40,9 @@ manual lists are authoritative.
   [[Realized Volatility]] · [[Historical Volatility]] ·
   [[Gamma Exposure]] · [[Order Types]] · [[TFEX Position Limits]] ·
   [[SET Circuit Breakers]] · [[TSD Settlement]] ·
-  [[Thai Derivatives Tax]]
+  [[Thai Derivatives Tax]] · [[Position Sizing Frameworks]] ·
+  [[Trade Journaling]] · [[Backtesting & Forward Testing]] ·
+  [[Daily Routine & Market Prep]] · [[P&L Attribution]]
 <!-- olw: auto-concepts -->
 
 ## Greeks

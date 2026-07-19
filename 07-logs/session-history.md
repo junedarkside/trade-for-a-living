@@ -6,6 +6,23 @@ Newest at top.
 
 ---
 
+## Session #5 — 2026-07-19
+
+**Achieved:**
+- **Tier 4 per-product specs (Batch 3–5):** USD/THB Futures, SET50 Futures,
+  SET50 Options, SSF, SET 50 Index, Gold Futures, RSS3 Rubber Futures,
+  Sector Index Futures, TFEX Position Limits, SET Circuit Breakers,
+  TSD Settlement, Thai Derivatives Tax — vault grew to 90 articles.
+- **Tier 3 operational discipline (Batch 6):** Position Sizing Frameworks,
+  Trade Journaling, Backtesting & Forward Testing, Daily Routine & Market Prep,
+  P&L Attribution — vault grew to 93 articles.
+- **6 status promotions:** Greeks, Risk Management, Volatility Risk Premium,
+  Put-Call Parity, Options Risk Management, Implied Volatility → `reviewed`.
+
+**Commit:** `3558059`
+
+---
+
 ## Session #4 — 2026-07-19
 
 **Achieved:**

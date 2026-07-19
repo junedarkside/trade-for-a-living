@@ -1,7 +1,7 @@
 ---
 title: Volatility Risk Premium
 type: concept
-status: learning
+status: reviewed
 tags: [options, derivatives, strategy/income, strategy/speculation]
 aliases: [VRP, Variance Risk Premium, Vol Premium]
 ---

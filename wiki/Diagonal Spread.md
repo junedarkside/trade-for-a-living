@@ -3,7 +3,7 @@ title: Diagonal Spread
 type: strategy
 status: learning
 aliases: [Diag]
-tags: [options, futures, derivatives, strategy/speculation]
+tags: [options, futures, derivatives, strategy/speculation, market/thailand]
 ---
 
 # Diagonal Spread

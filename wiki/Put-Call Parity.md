@@ -1,7 +1,7 @@
 ---
 title: Put-Call Parity
 type: concept
-status: learning
+status: reviewed
 tags: [options, derivatives, market/thailand]
 aliases: [PCP, Put Call Parity]
 ---

@@ -49,7 +49,7 @@ instruments settle on different cadences and on different underlyings.
 
 ## Related
 - [[Spot — Basics]] · [[Futures — Basics]] · [[Options — Basics]] ·
-  [[Assignment]] · [[Margin Mechanics]]
+  [[Assignment]] · [[Margin Mechanics]] · [[SET50 Futures]] · [[SET50 Options]]
 
 ## Sources
 [^1]: `raw/spot-basics.md`

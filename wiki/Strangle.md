@@ -76,7 +76,7 @@ Long:   profits on tails       Short:  profits in the middle
 ## Related
 - [[Long Straddle]] (ATM version) · [[Iron Condor]] (defined-risk short
   strangle) · [[Multi-Strategy Options]] · [[Options Chain]] ·
-  [[Greeks]] ([[Gamma]], [[Theta]], [[Vega]])
+  [[Greeks]] ([[Gamma]], [[Theta]], [[Vega]]) · [[SET50 Options]]
 
 ## Sources
 [^1]: `raw/multi-strategy-options.md`

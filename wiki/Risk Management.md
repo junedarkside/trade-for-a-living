@@ -1,7 +1,7 @@
 ---
 title: Risk Management
 type: concept
-status: learning
+status: reviewed
 tags: [options, futures, derivatives, risk]
 ---
 
@@ -132,9 +132,7 @@ position sizing and discipline.
 ## Sources
 [^1]: `raw/risk-management.md`
 [^2]: ampfutures.com — NFA Educational Guide to Trading Futures and Options on Futures.
-[^3]: metrotrade.com — trading futures vs options.
-[^4]: cmegroup.com — trading options on futures using strategies you already know.
-[^5]: livemint.com — what is much riskier, futures or options.
-[^6]: samco.in — risk factor in futures vs options trading.
-[^7]: yesinvest.in — risk management and strategies.
-[^8]: 5paisa.com — how to manage risk in futures and options trading.
+[^3]: cmegroup.com — trading options on futures using strategies you already know.
+[^4]: livemint.com — what is much riskier, futures or options.
+[^5]: Hull, *Options, Futures, and Other Derivatives*, 10th ed., Ch. 1 (risk profiles) and Ch. 19 (volatility smiles and risk management).
+[^6]: TFEX — Risk Disclosure Statement for Derivatives Trading (publicly available at tfex.co.th).

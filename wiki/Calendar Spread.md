@@ -3,7 +3,7 @@ title: Calendar Spread
 type: strategy
 status: learning
 aliases: [Cal]
-tags: [options, futures, derivatives, strategy/speculation]
+tags: [options, futures, derivatives, strategy/speculation, market/thailand]
 ---
 
 # Calendar Spread

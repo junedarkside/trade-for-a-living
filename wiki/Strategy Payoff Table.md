@@ -21,6 +21,8 @@ at **expiry** (x = underlying price, y = P&L). Always size to your **max loss**.
 | **[[Long Straddle]]** | Long call + long put (same strike/exp) | Unlimited | Total premium paid | Strike ± total premium | `\/` (V) — profits both tails | Volatile, direction unknown |
 | **[[Vertical Spread]]** (bull call) | Long call + short call (higher strike) | (Width − net debit) × 100 | Net debit paid | Long strike + net debit | `_/` then flat | Moderately bullish, defined risk |
 
+| **[[Short Strangle]]** | Short OTM call + short OTM put | Net credit | Unlimited both sides | S25,200P/S25,800C at ฿700 credit: breakevens 25,200−700=24,500 / 25,800+700=26,500 | `/\____/\` inverted V capped | Range-bound, high IV |
+
 ## Payoff shape legend
 
 ```

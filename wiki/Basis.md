@@ -56,7 +56,7 @@ Two common conventions:
 
 ## Related
 - [[Contango]] · [[Backwardation]] · [[Roll Yield]] · [[Calendar Spread]] ·
-  `raw/futures-basics.md`
+  [[SET50 Futures]] · `raw/futures-basics.md`
 
 ## Sources
 [^1]: `raw/multi-leg-futures-options.md`

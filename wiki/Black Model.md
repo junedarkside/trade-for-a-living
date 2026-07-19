@@ -70,9 +70,39 @@ delta is the sensitivity to futures price, not spot.
 - Computing Greeks for a futures-options position (see [[Delta-Neutral Hedging]]).
 - Identifying **forward-starting** or **futures-style** option structures.
 
+## Worked example — S50C (call on SET50 futures)
+
+**Inputs:** F = 1,320 (S50 front-month future), K = 1,350 (OTM call), T = 30/365 ≈ 0.0822 yr,
+σ = 20%, r = 1.5%. TFEX multiplier = ฿200 per index point.
+
+```
+d1 = [ln(1320/1350) + (0.04/2) × 0.0822] / (0.20 × √0.0822)
+   = [−0.02247 + 0.001644] / 0.05736
+   = −0.02083 / 0.05736 ≈ −0.363
+
+d2 = −0.363 − 0.20 × √0.0822
+   = −0.363 − 0.0574 ≈ −0.420
+
+N(d1) = N(−0.363) ≈ 0.3584
+N(d2) = N(−0.420) ≈ 0.3373
+
+e^(−rT) = e^(−0.015 × 0.0822) ≈ 0.9988
+
+Call = 0.9988 × [1320 × 0.3584 − 1350 × 0.3373]
+     = 0.9988 × [473.1 − 455.4]
+     = 0.9988 × 17.7 ≈ 17.7 index points
+```
+
+**Premium per contract ≈ 17.7 × ฿200 = ฿3,540**. Call is OTM (K > F) so delta ≈ 0.358.
+
+**Quick check via put-call parity:**
+`P = C − e^(−rT)(F − K) = 17.7 − 0.9988 × (1320 − 1350) = 17.7 + 29.96 ≈ 47.7 pts`
+(put is deeper ITM → higher price, consistent).
+
 ## Related
 - [[Greeks]] · [[Delta-Neutral Hedging]] · [[Synthetic Futures]] · [[Contango]] ·
-  [[Backwardation]] (forward vs spot drives parity deviations)
+  [[Backwardation]] (forward vs spot drives parity deviations) ·
+  [[SET50 Futures]] · [[SET50 Options]]
 
 ## Sources
 [^1]: `raw/multi-leg-futures-options.md`

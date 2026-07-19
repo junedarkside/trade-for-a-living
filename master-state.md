@@ -6,33 +6,39 @@
 
 ## Section 1 — Session Handoff
 
-**Updated:** 2026-07-19 (session #5)
+**Updated:** 2026-07-19 (session #6)
 
-**Achieved this session (#5):**
-- **Tier 4 per-product specs**: 3 of 5+ TFEX product legs documented with
-  full contract spec + worked examples.
-- **2 ingests executed:**
-  1. `raw/usdthb-futures.md` (inline YAML spec block) → `wiki/USD-THB Futures.md`
-  2. `raw/set50-futures-and-options.md` (inline two-product payload) → 2 wiki:
-     `SET50 Futures`, `SET50 Options`
-- **Vault growth**: 66 → **69 wiki articles** (+3 net).
-- **Aliases added**: USDTHB, S50, S50C, S50P (4 new).
-- **Coverage**: USD/THB expiration + roll mechanics, S50 final settlement
-  calc (15-min average trimmed), SET50 driver matrix, S50C 820-call worked
-  example, liquidity profile per product.
+**Achieved this session (#6) — Batch 7 Reinforcement:**
+- **Worked examples added:** Greeks (S50 call Greeks table with ฿ values),
+  Black Model (S50C d1/d2 full calc, 1,320 futures / 1,350 strike), Strategy
+  Payoff Table (Short Strangle row with SET50 strikes).
+- **Source upgrades:** Risk Management — replaced samco.in + 5paisa.com with
+  Hull Ch. 1/19 + TFEX Risk Disclosure.
+- **Backlink pass:** +7 articles now link to [[SET50 Futures]] / [[SET50 Options]]:
+  Collar, Basis, Expiration, Mark-to-Market, Settlement, Strangle, Black Model.
+  Total articles with SET50 backlinks: 17 (was 10).
+- **Tag fixes:** Calendar Spread + Diagonal Spread → added `market/thailand`.
+- **Vault:** 93 wiki articles. All 7 planned batches **complete**.
+- **6 articles at `status: reviewed`** (Greeks, Risk Management, VRP,
+  Put-Call Parity, Options Risk Management, Implied Volatility).
 
-**Resume point (EXACT):**
-1. Tier 4 #20 remaining legs: SSF (single-stock futures), gold/oil/agri,
-   sector index futures. Suggest `raw/ssf-spec.md` next — connects to
-   existing NVDR, [[Spot — Basics]], [[Futures — Basics]].
-2. Alternative Tier 2 advanced: `raw/open-interest.md` (already aliased;
-   unblocks flow analysis on Thai market).
+**Resume point:**
+All planned batches (1–7) done. Next session options:
+1. **Tier 2 advanced gaps** — `raw/open-interest.md` (aliased, unblocks flow
+   analysis), then Greeks in Practice expansion.
+2. **New product legs** — Oil Futures (Brent, if TFEX activates), warrants.
+3. **Status promotions** — 80 articles still at `learning`; promote as
+   knowledge deepens (read, practice, review).
+4. **wrapup skill verify** — confirm `.claude/skills/wrapup/skill.md` matches
+   CLAUDE.md L82-88 SOP exactly.
 
 ## Section 2 — Loose Ends
 
 | # | Item | Status |
 |---|------|--------|
-| 1 | Tier 2–5 roadmap (see plan file) — blocked on next-phase raw notes | open |
+| 1 | wrapup skill verify — confirm `.claude/skills/wrapup/skill.md` matches CLAUDE.md L82-88 | open |
+| 2 | Oil Futures article — defer until TFEX Brent product is confirmed active | open |
+| 3 | 80 articles still at `status: learning` — promote progressively as knowledge reviewed | ongoing |
 
 ## See also
 

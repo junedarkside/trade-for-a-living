@@ -88,7 +88,8 @@ near expiry, IV term structure shifts.
 ## Related
 
 - [[Assignment]] · [[Options — Basics]] · [[Theta]] · [[Calendar Spread]] ·
-  [[Settlement]] · [[Options Strategy]] · [[Options Risk Management]]
+  [[Settlement]] · [[Options Strategy]] · [[Options Risk Management]] ·
+  [[SET50 Futures]] · [[SET50 Options]]
 
 ## Sources
 

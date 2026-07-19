@@ -1,7 +1,7 @@
 ---
 title: Options Risk Management
 type: concept
-status: learning
+status: reviewed
 tags: [options, derivatives, risk]
 ---
 
