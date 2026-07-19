@@ -55,7 +55,8 @@ manual lists are authoritative.
 ## Instruments
 - [[Spot — Basics]] · [[Options — Basics]] · [[Futures — Basics]] ·
   [[SET 50 Index]] · [[TFEX Market Structure]] · [[SET50 Futures]] ·
-  [[SET50 Options]] · [[USD/THB Futures]] · [[Single-Stock Futures]]
+  [[SET50 Options]] · [[USD/THB Futures]] · [[Single-Stock Futures]] ·
+  [[Gold Futures]] · [[Sector Index Futures]] · [[RSS3 Rubber Futures]]
 <!-- olw: auto-instruments -->
 
 ## Synthesis
