@@ -22,12 +22,10 @@
 - Updated `CLAUDE.md` — added Second Brain layer section + wrap-up protocol.
 
 **Resume point (EXACT):**
-1. Push baseline commit to remote — `git push -u origin main`.
-2. Verify `/ingest` skill registers in next session `/help`.
-3. End-to-end test: drop a note in `raw/`, run `/ingest <file>`, confirm all
+1. Verify `/ingest` skill registers in next session `/help`.
+2. End-to-end test: drop a note in `raw/`, run `/ingest <file>`, confirm all
    10 steps execute.
-4. Confirm `$ARGUMENTS` honors `raw/foo.md` vs bare `/ingest` scan.
-5. Skill deep-link from CLAUDE.md to `.claude/skills/ingest/SKILL.md` (done).
+3. Confirm `$ARGUMENTS` honors `raw/foo.md` vs bare `/ingest` scan.
 
 ## Section 2 — Loose Ends
 
@@ -36,7 +34,6 @@
 | 1 | `/ingest` skill unverified in `/help` skill list — needs next session | open |
 | 2 | End-to-end `/ingest` run on a test note | open |
 | 3 | `$ARGUMENTS` parsing not exercised | open |
-| 4 | First push to remote not done | open |
 
 ## See also
 
