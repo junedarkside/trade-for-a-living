@@ -1,0 +1,15 @@
+# olw runtime state — never commit
+.olw/state.db
+.olw/state.db-*
+.olw/pipeline.lock
+.olw/compare/
+
+# OS noise
+.DS_Store
+
+# Obsidian workspace (per-machine)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Heavy attachments (uncomment if vault gets large)
+# Attachments/*.png
