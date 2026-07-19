@@ -85,6 +85,11 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 | Prem | Premium |
 | ITM, ATM, OTM | Moneyness |
 | IV, EV, time-value | Intrinsic and Extrinsic Value |
+| NVDR | Non-Voting Depository Receipt |
+| TSD | Thailand Securities Depository |
+| GTC | Good-Till-Cancelled |
+| MTM | Mark-to-Market |
+| SSF | Single-Stock Future |
 | Δ, delta | Delta |
 | Γ, gamma | Gamma |
 | Θ, theta | Theta |

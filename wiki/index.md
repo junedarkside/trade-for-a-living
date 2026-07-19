@@ -36,11 +36,12 @@ sections below once the pipeline runs; until then, use the manual navigation.
 <!-- olw: auto-greeks -->
 
 ## Glossary
-- [[Strike Price]] · [[Premium]] · [[Moneyness]] · [[Intrinsic and Extrinsic Value]]
+- [[Strike Price]] · [[Premium]] · [[Moneyness]] · [[Intrinsic and Extrinsic Value]] ·
+  [[Board Lot]] · [[Tick Size]] · [[Bid-Ask Spread]] · [[Settlement]]
 <!-- olw: auto-glossary -->
 
 ## Instruments
-- _seed: see `raw/options-basics.md`, `raw/futures-basics.md`, `raw/spot-basics.md`
+- [[Spot — Basics]] · [[Options — Basics]] · [[Futures — Basics]]
 <!-- olw: auto-instruments -->
 
 ## Synthesis

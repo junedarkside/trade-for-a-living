@@ -178,6 +178,13 @@
   },
   "active": "54bffc4804dbdb80",
   "lastOpenFiles": [
+    "Futures — Basics.md",
+    "NVDR.md",
+    "Settlement.md",
+    "Bid-Ask Spread.md",
+    "Tick Size.md",
+    "Board Lot.md",
+    "Spot — Basics.md",
     "Dynamic Hedging.md",
     "Pre-Trade Checklist.md",
     "Options Risk Management.md",
@@ -196,13 +203,6 @@
     "Moneyness.md",
     "Premium.md",
     "Strike Price.md",
-    "Short Put.md",
-    "Long Put.md",
-    "Short Call.md",
-    "Long Call.md",
-    "Basis.md",
-    "Roll Yield.md",
-    "Contango.md",
-    "Diagonal Spread.md"
+    "Short Put.md"
   ]
 }
