@@ -185,6 +185,10 @@
   },
   "active": "54bffc4804dbdb80",
   "lastOpenFiles": [
+    "Thai Derivatives Tax.md",
+    "TSD Settlement.md",
+    "SET Circuit Breakers.md",
+    "TFEX Position Limits.md",
     "index.md.tmp.47202.408af4cd27e7",
     "Single-Stock Futures.md",
     "SET 50 Index.md",
@@ -209,9 +213,6 @@
     "index.md.tmp.47202.ee3c675350b2",
     "Put-Call Parity.md",
     "Expiration.md",
-    "Assignment.md",
-    "TFEX Market Structure.md",
-    "Margin Mechanics.md",
-    "Implied Volatility.md"
+    "Assignment.md"
   ]
 }
