@@ -53,6 +53,31 @@ resistance**. See [[Options Chain]] for the read:
 
 This is why the "OI walls" concept is daily-critical for S50 options.
 
+## OI trend signals
+
+| Signal | Interpretation |
+|--------|----------------|
+| Rising OI + rising price | New longs + new shorts entering → **strong trend**, conviction |
+| Rising OI + falling price | New shorts entering → **strong downtrend** |
+| Falling OI + rising price | Shorts covering → weak rally, likely fading |
+| Falling OI + falling price | Longs liquidating → weak sell-off, potential base forming |
+
+## Roll OI (near-to-far migration)
+
+In the final 2 weeks before expiry, large positions **roll** — close the
+near-month contract and reopen in the next expiry:
+
+- Near-month OI falls sharply (roll-out).
+- Next-month OI rises sharply (roll-in).
+- This is **not** a directional signal — it's position maintenance.
+
+**How to distinguish roll from real new positioning:**
+- Roll = simultaneous OI drop in near + OI rise in far, flat total.
+- New positioning = total OI across all expiries rises.
+
+Watch for roll acceleration starting 10–14 days before SET50 options expiry
+(third Thursday). Near-month liquidity thins → spreads widen → execution cost rises.
+
 ## OI at expiry
 
 For monthly options, OI collapses into expiry as positions close. The
@@ -74,8 +99,10 @@ those strikes with delta hedges). See [[Expiration]] for pin risk mechanics.
 
 ## Related
 
-- [[Options Chain]] · [[Volume]] · [[Gamma Exposure]] · [[Expiration]] ·
-  [[Position Greeks]] · [[Volatility Risk Premium]]
+- [[Options Chain]] · [[Gamma Exposure]] · [[Expiration]] ·
+  [[Position Greeks]] · [[Volatility Risk Premium]] ·
+  [[Options Flow Analysis]] · [[Strategy Selection Framework]] ·
+  [[SET50 Futures]] · [[SET50 Options]]
 
 ## Sources
 

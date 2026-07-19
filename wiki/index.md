@@ -42,7 +42,9 @@ manual lists are authoritative.
   [[SET Circuit Breakers]] · [[TSD Settlement]] ·
   [[Thai Derivatives Tax]] · [[Position Sizing Frameworks]] ·
   [[Trade Journaling]] · [[Backtesting & Forward Testing]] ·
-  [[Daily Routine & Market Prep]] · [[P&L Attribution]]
+  [[Daily Routine & Market Prep]] · [[P&L Attribution]] ·
+  [[Options Flow Analysis]] · [[Edge & Expectancy]] ·
+  [[Strategy Selection Framework]] · [[Execution & Slippage]]
 <!-- olw: auto-concepts -->
 
 ## Greeks

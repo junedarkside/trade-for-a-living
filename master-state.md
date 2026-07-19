@@ -6,31 +6,25 @@
 
 ## Section 1 — Session Handoff
 
-**Updated:** 2026-07-19 (session #6)
+**Updated:** 2026-07-19 (session #7)
 
-**Achieved this session (#6) — Batch 7 Reinforcement:**
-- **Worked examples added:** Greeks (S50 call Greeks table with ฿ values),
-  Black Model (S50C d1/d2 full calc, 1,320 futures / 1,350 strike), Strategy
-  Payoff Table (Short Strangle row with SET50 strikes).
-- **Source upgrades:** Risk Management — replaced samco.in + 5paisa.com with
-  Hull Ch. 1/19 + TFEX Risk Disclosure.
-- **Backlink pass:** +7 articles now link to [[SET50 Futures]] / [[SET50 Options]]:
-  Collar, Basis, Expiration, Mark-to-Market, Settlement, Strangle, Black Model.
-  Total articles with SET50 backlinks: 17 (was 10).
-- **Tag fixes:** Calendar Spread + Diagonal Spread → added `market/thailand`.
-- **Vault:** 93 wiki articles. All 7 planned batches **complete**.
-- **6 articles at `status: reviewed`** (Greeks, Risk Management, VRP,
-  Put-Call Parity, Options Risk Management, Implied Volatility).
+**Achieved this session (#7) — Phase 2 Synthesis Layer:**
+- **4 new wiki articles** (closes pro-trader synthesis gap):
+  - `Options Flow Analysis` — UOA, PCR, dealer positioning, TFEX OI report reading
+  - `Edge & Expectancy` — expectancy formula, win%/R:R tradeoff, sample size math, SET50 iron condor example
+  - `Strategy Selection Framework` — 2×2 regime matrix (vol × trend), SET50 indicators per axis
+  - `Execution & Slippage` — TFEX bid-ask by product, legging risk, commission table, cost example
+- **2 articles expanded:**
+  - `Gamma Exposure` — full GEX pinning mechanics, dealer hedge chain, gamma flip point, worked S50 pin example
+  - `Open Interest` — OI trend signals table, roll OI mechanics, roll vs new positioning distinction
+- **Vault:** 93 → **97 wiki articles**.
+- **Vault assessment:** Gap between intermediate and pro is now closed for knowledge base. Remaining gap is execution (live trading experience) not knowledge.
 
 **Resume point:**
-All planned batches (1–7) done. Next session options:
-1. **Tier 2 advanced gaps** — `raw/open-interest.md` (aliased, unblocks flow
-   analysis), then Greeks in Practice expansion.
-2. **New product legs** — Oil Futures (Brent, if TFEX activates), warrants.
-3. **Status promotions** — 80 articles still at `learning`; promote as
-   knowledge deepens (read, practice, review).
-4. **wrapup skill verify** — confirm `.claude/skills/wrapup/skill.md` matches
-   CLAUDE.md L82-88 SOP exactly.
+1. **Live trading** — vault is knowledge-complete for pro level. Real edge comes from execution experience, journal data, and refining strategy selection via actual P&L.
+2. **Status promotions** — 93 articles still at `learning`; promote as you trade and master each concept.
+3. **wrapup skill verify** — confirm `.claude/skills/wrapup/skill.md` matches CLAUDE.md L82-88 SOP.
+4. **Future additions (on demand):** Portfolio Greeks Management article; Oil Futures if TFEX relists; advanced skew trading playbook.
 
 ## Section 2 — Loose Ends
 
@@ -38,7 +32,8 @@ All planned batches (1–7) done. Next session options:
 |---|------|--------|
 | 1 | wrapup skill verify — confirm `.claude/skills/wrapup/skill.md` matches CLAUDE.md L82-88 | open |
 | 2 | Oil Futures article — defer until TFEX Brent product is confirmed active | open |
-| 3 | 80 articles still at `status: learning` — promote progressively as knowledge reviewed | ongoing |
+| 3 | 93 articles still at `status: learning` — promote progressively as knowledge reviewed in trading | ongoing |
+| 4 | Portfolio Greeks Management article — on demand when running concurrent multi-strategy positions | future |
 
 ## See also
 

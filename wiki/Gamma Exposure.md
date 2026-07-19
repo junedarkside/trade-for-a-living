@@ -66,6 +66,28 @@ expiries).
 4. **No Thai-specific historical GEX data** — must calculate from TFEX-
    published OI + chain pricing.
 
+## GEX pinning mechanics (how dealers create price magnets)
+
+When a large OI exists at a strike, dealers who sold those options must
+continuously delta-hedge as spot moves:
+
+1. **As price rises toward strike** (e.g. S50 approaching a large call OI strike):
+   - Call delta increases → dealers must **buy more spot/futures** to neutralize → buying pressure → price accelerates into the strike.
+2. **AT the strike** (at-the-money):
+   - Dealers are short gamma → small moves require large hedge adjustments → high frequency flip-buying/selling → **price pins near the strike**.
+3. **As price breaks through the strike**:
+   - Delta flips sign for dealers → massive hedge reversal → **vol burst and strong continuation** (the "gamma flip" effect).
+
+**Gamma flip point** = the strike where aggregate dealer gamma changes sign from positive to negative. Crossing it often triggers rapid vol expansion.
+
+## Worked example — S50 GEX pin
+
+- S50 at **900**. Largest call OI at **900 strike** (8,000 contracts, γ ≈ 0.025).
+- GEX at 900 = 8,000 × 0.025 × 200 (multiplier) = **40,000 S50 equivalent delta** that dealers are hedging.
+- Every 1-point move in S50 triggers 40,000 × 0.025 = **1,000 contracts** of forced dealer hedging.
+- Result: price is magnetically attracted to 900 into expiry; realised vol drops near 900.
+- If S50 breaks through 905+ → dealer hedges flip → realised vol expands → range-break confirmed.
+
 ## Relationship to [[Options Chain]]
 
 GEX combines [[Open Interest]] + [[Implied Volatility]] + [[Gamma|gamma]]
@@ -73,11 +95,16 @@ across the [[Options Chain]] into a single directional read on dealer
 positioning. Daily GEX sign is the most actionable summary of an otherwise
 dense options market.
 
+GEX works alongside [[Options Flow Analysis]] — flow tells you *where* new
+positioning is building; GEX tells you *how* that positioning will drive
+price dynamics via dealer hedging.
+
 ## Related
 
-- [[Gamma]] · [[Open Interest]] · [[Implied Volatility]] · [[Options Chain]]
-  · [[Delta]] · [[Position Greeks]] · [[Volatility Risk Premium]] ·
-  [[Delta-Neutral Hedging]]
+- [[Gamma]] · [[Open Interest]] · [[Implied Volatility]] · [[Options Chain]] ·
+  [[Delta]] · [[Position Greeks]] · [[Volatility Risk Premium]] ·
+  [[Delta-Neutral Hedging]] · [[Options Flow Analysis]] ·
+  [[Strategy Selection Framework]] · [[SET50 Futures]] · [[SET50 Options]]
 
 ## Sources
 

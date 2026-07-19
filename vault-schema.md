@@ -113,6 +113,16 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 | ORM | Options Risk Management |
 | PTC | Pre-Trade Checklist |
 | DH | Dynamic Hedging |
+| OFA | Options Flow Analysis |
+| UOA | Options Flow Analysis |
+| Flow Analysis | Options Flow Analysis |
+| PCR | Options Flow Analysis |
+| EE | Edge & Expectancy |
+| Expectancy | Edge & Expectancy |
+| SSFw | Strategy Selection Framework |
+| Regime Matrix | Strategy Selection Framework |
+| Exec | Execution & Slippage |
+| Slippage | Execution & Slippage |
 
 ## Tag taxonomy
 
