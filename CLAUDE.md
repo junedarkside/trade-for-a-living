@@ -62,6 +62,35 @@ olw adds its own metadata fields to compiled articles — don't strip them.
 - Skill: `.claude/skills/ingest/SKILL.md` — runs the 10-step SOP, reads
   `vault-schema.md` for templates/taxonomy/aliases.
 
+## Second Brain layer
+
+Session tracking + handoff automation layered on top of the knowledge base.
+Two layers coexist; don't conflate their logs.
+
+| File | Purpose |
+|------|---------|
+| `master-state.md` | Latest session block (Section 1) + open items (Section 2). Self-contained handoff. |
+| `07-logs/session-history.md` | Older session blocks (moved here on wrap-up). |
+| `07-logs/closed-items.md` | Resolved loose ends (moved here on wrap-up). |
+| `07-logs/log.md` | Daily session-end entries (`## [DATE] session-end | summary`). |
+| `vault-wrapup.sh` | Git state collector (branch, latest commit, status, remote). |
+
+**Layer separation:**
+- `wiki/log.md` = per-note ingest audit trail (knowledge base).
+- `07-logs/log.md` = session-end entries (Second Brain).
+
+**Wrap-up protocol:**
+1. `bash vault-wrapup.sh` — collect git state.
+2. Edit `master-state.md` Section 1 — new session block + resume point.
+   Move old session block to `07-logs/session-history.md`.
+3. Edit Section 2 — close items (→ `07-logs/closed-items.md`), add new open items.
+4. Prepend `07-logs/log.md` with `## [DATE] session-end | <summary>`.
+5. `git add -A && git commit -m "session-end: <summary>" && git push`.
+6. Verify remote matches local.
+
+**Commit style:** imperative summary line + optional body. Co-author footer
+optional for solo sessions.
+
 ## See also
 
 - `vault-schema.md` — full domain conventions (injected into olw compile prompts).
