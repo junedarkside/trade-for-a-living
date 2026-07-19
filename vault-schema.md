@@ -68,6 +68,10 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 | RR | Risk Reversal |
 | SynF | Synthetic Futures |
 | PCP | Put-Call Parity |
+| USDTHB | USD/THB Futures |
+| S50 | SET50 Futures |
+| S50C | SET50 Options (call) |
+| S50P | SET50 Options (put) |
 | MLO | Multi-Leg Order |
 | BM | Black Model |
 | DNH | Delta-Neutral Hedging |

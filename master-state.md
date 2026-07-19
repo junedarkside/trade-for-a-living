@@ -6,32 +6,27 @@
 
 ## Section 1 — Session Handoff
 
-**Updated:** 2026-07-19 (session #4)
+**Updated:** 2026-07-19 (session #5)
 
-**Achieved this session (#4):**
-- **Tier 1 + Tier 2 sweep**: closed all 5 Tier 1 foundational blockers
-  (TFEX, IV, IV Skew/Surface, Margin, Assignment/Expiration) plus Tier 2
-  #8 (VRP) and Tier 2 #9 (Put-Call Parity).
-- **3 ingests executed:**
-  1. `raw/volatility-risk-premium.md` (inline) → `wiki/Volatility Risk Premium.md`
-  2. `raw/iv-and-market-mechanics.md` (inline 5-section bundle) → 6 wiki:
-     `Implied Volatility`, `IV Skew, Smile & Surface`, `Margin Mechanics`,
-     `TFEX Market Structure`, `Assignment`, `Expiration`
-  3. `raw/put-call-parity.md` (inline) → `wiki/Put-Call Parity.md`
-- **Vault growth**: 58 → **66 wiki articles** (+8 net).
-- **Aliases added**: VRP, Variance Risk Premium, Vol Premium, IV, RV, HV,
-  GEX, IM, MM, MTM, PCP (11 new short forms → canonical).
-- **Resolutions:** `[[Implied Volatility]]` red-link from VRP article now
-  lands. Synthetic Futures / Risk Reversal / Collar all benefit from PCP
-  cross-link.
-- **SET50 worked examples** added in IV, PCP, Margin articles; Thai TFEX
-  context throughout.
+**Achieved this session (#5):**
+- **Tier 4 per-product specs**: 3 of 5+ TFEX product legs documented with
+  full contract spec + worked examples.
+- **2 ingests executed:**
+  1. `raw/usdthb-futures.md` (inline YAML spec block) → `wiki/USD-THB Futures.md`
+  2. `raw/set50-futures-and-options.md` (inline two-product payload) → 2 wiki:
+     `SET50 Futures`, `SET50 Options`
+- **Vault growth**: 66 → **69 wiki articles** (+3 net).
+- **Aliases added**: USDTHB, S50, S50C, S50P (4 new).
+- **Coverage**: USD/THB expiration + roll mechanics, S50 final settlement
+  calc (15-min average trimmed), SET50 driver matrix, S50C 820-call worked
+  example, liquidity profile per product.
 
 **Resume point (EXACT):**
-1. User writes / ingests next Tier 2 advanced raw note. Suggested next:
-   `raw/open-interest.md` (already aliased; unblocks flow analysis).
-2. Alternative Tier 3 entry: `raw/position-sizing-frameworks.md` (Kelly /
-   fixed-fractional / vol-targeted — applied daily).
+1. Tier 4 #20 remaining legs: SSF (single-stock futures), gold/oil/agri,
+   sector index futures. Suggest `raw/ssf-spec.md` next — connects to
+   existing NVDR, [[Spot — Basics]], [[Futures — Basics]].
+2. Alternative Tier 2 advanced: `raw/open-interest.md` (already aliased;
+   unblocks flow analysis on Thai market).
 
 ## Section 2 — Loose Ends
 

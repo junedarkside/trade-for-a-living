@@ -32,7 +32,8 @@ sections below once the pipeline runs; until then, use the manual navigation.
   [[Volatility Risk Premium]] · [[Implied Volatility]] ·
   [[IV Skew, Smile & Surface]] · [[Margin Mechanics]] ·
   [[TFEX Market Structure]] · [[Assignment]] · [[Expiration]] ·
-  [[Put-Call Parity]]
+  [[Put-Call Parity]] · [[USD-THB Futures]] · [[SET50 Futures]] ·
+  [[SET50 Options]]
 <!-- olw: auto-concepts -->
 
 ## Greeks

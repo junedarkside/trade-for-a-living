@@ -178,6 +178,11 @@
   },
   "active": "54bffc4804dbdb80",
   "lastOpenFiles": [
+    "SET50 Options.md",
+    "SET50 Futures.md",
+    "SET50 Futures.md.tmp.47202.d52bbde641f3",
+    "USD-THB Futures.md",
+    "index.md.tmp.47202.ee3c675350b2",
     "Put-Call Parity.md",
     "Expiration.md",
     "Assignment.md",
@@ -200,9 +205,6 @@
     "Risk Management.md",
     "Greeks in Practice.md",
     "Position Greeks.md",
-    "Rho.md",
-    "Vega.md",
-    "Theta.md",
-    "Gamma.md"
+    "Rho.md"
   ]
 }

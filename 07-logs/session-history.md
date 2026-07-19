@@ -6,6 +6,29 @@ Newest at top.
 
 ---
 
+## Session #4 — 2026-07-19
+
+**Achieved:**
+- **Tier 1 + Tier 2 sweep**: closed all 5 Tier 1 foundational blockers
+  (TFEX, IV, IV Skew/Surface, Margin, Assignment/Expiration) plus Tier 2
+  #8 (VRP) and Tier 2 #9 (Put-Call Parity).
+- **3 ingests executed:**
+  1. `raw/volatility-risk-premium.md` (inline) → `wiki/Volatility Risk Premium.md`
+  2. `raw/iv-and-market-mechanics.md` (inline 5-section bundle) → 6 wiki:
+     `Implied Volatility`, `IV Skew, Smile & Surface`, `Margin Mechanics`,
+     `TFEX Market Structure`, `Assignment`, `Expiration`
+  3. `raw/put-call-parity.md` (inline) → `wiki/Put-Call Parity.md`
+- **Vault growth**: 58 → **66 wiki articles** (+8 net).
+- **Aliases added**: VRP, Variance Risk Premium, Vol Premium, IV, RV, HV,
+  GEX, IM, MM, MTM, PCP (11 new short forms → canonical).
+- **Resolutions:** `[[Implied Volatility]]` red-link from VRP article now
+  lands. Synthetic Futures / Risk Reversal / Collar all benefit from PCP
+  cross-link.
+- **SET50 worked examples** added in IV, PCP, Margin articles; Thai TFEX
+  context throughout.
+
+---
+
 ## Session #3 — 2026-07-19
 
 **Achieved:**
