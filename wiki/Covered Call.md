@@ -24,15 +24,15 @@ yours to keep regardless of outcome.
 | 1 | Long | Stock (100 shares / lot) | — | — |
 | 2 | Short (write) | Call | Above spot (OTM) | 30–45 days typical |
 
-## Max profit
-**(Strike − Stock purchase price) + Premium received**, per share.
-- Capped: yes — if stock rockets past the strike, shares are called away at the
-  strike.
-
 ## Max loss
 **Stock purchase price − Premium received** (if stock falls to zero).
 - Capped at the stock going to zero; you still bear the underlying's downside.
   The premium only partially offsets a big drop.
+
+## Max profit
+**(Strike − Stock purchase price) + Premium received**, per share.
+- Capped: yes — if stock rockets past the strike, shares are called away at the
+  strike.
 
 ## Breakeven
 **Stock purchase price − Premium received.** The premium lowers your cost basis.

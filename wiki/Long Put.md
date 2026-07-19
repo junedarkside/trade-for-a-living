@@ -24,13 +24,13 @@ underlying. Foundation of bearish plays ([[Long Straddle]] with a long call,
 |-----|--------|------|--------|--------|
 | 1 | Long | Put | ATM or slightly OTM | Typically 30–60 days |
 
-## Max profit
-**(Strike − 0) × 100 − Premium paid** (theoretical max if underlying → 0).
-- Capped at the underlying going to zero.
-
 ## Max loss
 **Premium paid.** If spot ≥ strike at expiry, the put expires worthless.
 - Capped: yes — at the premium.
+
+## Max profit
+**(Strike − 0) × 100 − Premium paid** (theoretical max if underlying → 0).
+- Capped at the underlying going to zero.
 
 ## Breakeven
 **Strike − Premium paid** (per share).

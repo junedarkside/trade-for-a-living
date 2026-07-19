@@ -11,10 +11,14 @@
             "id": "54bffc4804dbdb80",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Covered Put on Short Future.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Covered Put on Short Future"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Covered Put on Short Future.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Covered Put on Short Future"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Covered Put on Short Future.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Covered Put on Short Future"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Covered Put on Short Future.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Covered Put on Short Future"
             }
           }
         ]
@@ -178,6 +185,20 @@
   },
   "active": "54bffc4804dbdb80",
   "lastOpenFiles": [
+    "IV Skew, Smile & Surface.md",
+    "Iron Butterfly.md",
+    "Iron Condor.md",
+    "Strategy Payoff Table.md",
+    "Strangle.md",
+    "Short Call.md",
+    "Short Put.md",
+    "Short Strangle.md",
+    "Order Types.md",
+    "Gamma Exposure.md",
+    "Historical Volatility.md",
+    "Realized Volatility.md",
+    "Mark-to-Market.md",
+    "Open Interest.md",
     "SET50 Options.md",
     "SET50 Futures.md",
     "SET50 Futures.md.tmp.47202.d52bbde641f3",
@@ -188,23 +209,9 @@
     "Assignment.md",
     "TFEX Market Structure.md",
     "Margin Mechanics.md",
-    "IV Skew, Smile & Surface.md",
     "Implied Volatility.md",
     "Volatility Risk Premium.md",
     "Futures — Basics.md",
-    "NVDR.md",
-    "Settlement.md",
-    "Bid-Ask Spread.md",
-    "Tick Size.md",
-    "Board Lot.md",
-    "Spot — Basics.md",
-    "Dynamic Hedging.md",
-    "Pre-Trade Checklist.md",
-    "Options Risk Management.md",
-    "Backwardation.md",
-    "Risk Management.md",
-    "Greeks in Practice.md",
-    "Position Greeks.md",
-    "Rho.md"
+    "NVDR.md"
   ]
 }

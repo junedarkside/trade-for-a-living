@@ -2,7 +2,7 @@
 title: Multi-Strategy Options
 type: concept
 status: learning
-tags: [options, derivatives, strategy, risk, market/thailand]
+tags: [options, derivatives, risk, market/thailand]
 ---
 
 # Multi-Strategy Options

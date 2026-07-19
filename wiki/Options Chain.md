@@ -34,8 +34,8 @@ spot/futures price):
 - **Liquidity**: trade strikes with tight bid-ask and real volume — wider spreads
   bleed edge on entry and exit.
 
-> OI and IV skew are first-class concepts in their own right — promote to
-> `[[Open Interest]]` / `[[IV Skew]]` articles when a dedicated source note lands.
+> See [[Open Interest]] for the positioning read and [[IV Skew, Smile &
+> Surface]] for skew/surface mechanics.
 
 ## View → strategy mapping
 

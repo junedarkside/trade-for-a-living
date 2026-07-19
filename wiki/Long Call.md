@@ -23,13 +23,13 @@ Foundation of most speculative option plays (see [[Long Straddle]],
 |-----|--------|------|--------|--------|
 | 1 | Long | Call | ATM or slightly OTM | Typically 30–60 days |
 
-## Max profit
-**Uncapped** as the underlying rises. Profit = (Spot − Strike) × 100 − Premium paid.
-
 ## Max loss
 **Premium paid.** If the option expires worthless (spot ≤ strike at expiry),
 you lose 100% of the premium.
 - Capped: yes — at the premium.
+
+## Max profit
+**Uncapped** as the underlying rises. Profit = (Spot − Strike) × 100 − Premium paid.
 
 ## Breakeven
 **Strike + Premium paid** (per share).

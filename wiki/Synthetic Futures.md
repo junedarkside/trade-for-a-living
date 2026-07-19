@@ -36,13 +36,13 @@ futures-equivalent unit.
 | 1 | Short | Call option | e.g. S50U26 | At/near spot (ATM) | e.g. 30 days |
 | 2 | Long | Put option | e.g. S50U26 | Same as call | Same as call |
 
-## Max profit (both orientations)
-- **Synthetic Long**: uncapped as underlying rises (call leg).
-- **Synthetic Short**: uncapped as underlying falls (put leg).
-
 ## Max loss (both orientations)
 - **Synthetic Long**: strike K (the put leg assigns you a long at K).
 - **Synthetic Short**: strike K (the call leg assigns you a short at K).
+
+## Max profit (both orientations)
+- **Synthetic Long**: uncapped as underlying rises (call leg).
+- **Synthetic Short**: uncapped as underlying falls (put leg).
 
 ## Breakeven
 Strike K plus/minus net option premium. Parity holds closely; residual = time value

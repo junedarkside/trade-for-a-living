@@ -22,14 +22,14 @@ the equity [[Cash-Secured Put]] but on a futures underlier.
 | 1 | Short | Future | e.g. S50U26 | — | Same as put |
 | 2 | Short (write) | Put option | e.g. S50U26 | Below spot (OTM) | 30–45 days typical |
 
-## Max profit
-**(Future entry − Put strike) + Premium received**, per contract (× multiplier).
-- Capped: yes — at the put strike.
-
 ## Max loss
 **(Future entry − 0) − Premium received** (theoretically).
 - Capped at the underlying going to zero; you still bear the linear upside risk
   of the short future. Premium only partially offsets a big rally.
+
+## Max profit
+**(Future entry − Put strike) + Premium received**, per contract (× multiplier).
+- Capped: yes — at the put strike.
 
 ## Breakeven
 **Future entry + Premium received.**

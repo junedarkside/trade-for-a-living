@@ -22,12 +22,12 @@ Same logic as the equity [[Protective Put]], but with a futures leg instead of s
 | 1 | Long | Future | e.g. S50U26 | — | Same as put |
 | 2 | Long | Put option | e.g. S50U26 | At/near spot (ATM) or below (OTM) | Same as future |
 
-## Max profit
-**Uncapped** as the future rises, minus premium paid.
-
 ## Max loss
 **(Future entry − Put strike) + Premium paid**, per contract (× multiplier).
 - Capped: yes — the put guarantees exit-equivalent at the strike.
+
+## Max profit
+**Uncapped** as the future rises, minus premium paid.
 
 ## Breakeven
 **Future entry + Premium paid** (premium raises your cost basis).

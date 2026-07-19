@@ -32,8 +32,7 @@
 
 | # | Item | Status |
 |---|------|--------|
-| 1 | Phase B raw notes needed (user-write strategy) — `raw/tfex-market-structure.md`, `raw/implied-volatility.md`, `raw/iv-skew-surface.md`, `raw/margin-mechanics.md`, `raw/assignment-expiration.md` | closed (all ingested this session) |
-| 2 | Tier 2–5 roadmap (see plan file) — blocked on next-phase raw notes | open |
+| 1 | Tier 2–5 roadmap (see plan file) — blocked on next-phase raw notes | open |
 
 ## See also
 

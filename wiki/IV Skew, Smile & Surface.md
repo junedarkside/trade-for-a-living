@@ -3,7 +3,7 @@ title: IV Skew, Smile & Surface
 type: concept
 status: learning
 tags: [options, derivatives]
-aliases: [Volatility Skew, Skew, Smile, Vol Surface]
+aliases: [Volatility Skew, Skew, Smile, Vol Surface, IV Skew]
 ---
 
 # IV Skew, Smile & Surface

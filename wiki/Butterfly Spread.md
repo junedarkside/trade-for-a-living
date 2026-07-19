@@ -27,13 +27,13 @@ option type instead of a straddle + wings.
 
 > Put butterflies are the mirror (same payoff shape, built from puts).
 
-## Max profit
-**(Middle strike − Lower strike) − Net debit paid** (× multiplier).
-- Capped: yes — realised only at the middle strike.
-
 ## Max loss
 **Net debit paid** (× multiplier).
 - Capped: yes — both wings expire worthless at the tails.
+
+## Max profit
+**(Middle strike − Lower strike) − Net debit paid** (× multiplier).
+- Capped: yes — realised only at the middle strike.
 
 ## Breakeven
 **Two breakevens**: **Lower strike + Debit** and **Higher strike − Debit**.

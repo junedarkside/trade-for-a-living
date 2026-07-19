@@ -24,14 +24,14 @@ premium); if not, you keep the premium.
 | 1 | Short (write) | Put | Below spot (OTM) | 30–45 days typical |
 | — | Hold cash | = strike × 100 per contract | — | — |
 
-## Max profit
-**Premium received.**
-- Capped: yes — the premium is the most you earn.
-
 ## Max loss
 **(Strike − Premium) × 100** per contract (if stock → 0).
 - Capped only at zero. Being assigned at the strike above a crashed market is
   the real risk — the stock can keep falling after you own it.
+
+## Max profit
+**Premium received.**
+- Capped: yes — the premium is the most you earn.
 
 ## Breakeven
 **Strike − Premium.**

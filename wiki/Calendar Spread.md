@@ -27,16 +27,16 @@ through the short expiry.
 
 Mirror for **Calendar Put Spread**: short near ATM put + long far ATM put.
 
-## Max profit
-**Achieved near short-leg expiry**, when the underlying is at or near the strike
-and the long back-month retains meaningful time value. Hard to bound — depends
-on IV at that point.
-
 ## Max loss
 **Net debit paid** (long back-month premium − short near-month premium received),
 realized if the long back-month expires worthless or the underlying gaps far
 from the strike at short-expiry.
 - Capped: yes — at the net debit.
+
+## Max profit
+**Achieved near short-leg expiry**, when the underlying is at or near the strike
+and the long back-month retains meaningful time value. Hard to bound — depends
+on IV at that point.
 
 ## Breakeven
 **Strike ± (extrinsic value captured at short-leg expiry)** — path-dependent,

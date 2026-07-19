@@ -2,7 +2,7 @@
 title: Intrinsic and Extrinsic Value
 type: glossary
 status: learning
-aliases: [IV, EV, time-value]
+aliases: [EV, time-value]
 tags: [options, derivatives]
 ---
 

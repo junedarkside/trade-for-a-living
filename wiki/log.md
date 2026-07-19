@@ -1,9 +1,10 @@
 # Log
 
-Append-only operation history. `olw` appends entries for each
-ingest / compile / review / maintain action.
+Append-only operation history. The `/ingest` skill appends one row per
+ingest action (Claude processes notes by hand; `olw` pipeline is optional
+and not currently wired — see `vault-schema.md`).
 
-<!-- olw: append below. Hand-edits above this line are preserved. -->
+<!-- ingest: append below. Hand-edits above this line are preserved. -->
 
 | Date | Action | Notes |
 |------|--------|-------|
@@ -25,3 +26,6 @@ ingest / compile / review / maintain action.
 | 2026-07-19 | ingest | `raw/put-call-parity.md` (inline user content) → `wiki/Put-Call Parity.md` (concept: PCP formula, dividend adjustment, European vs American inequality, synthetic positions, conversions/reversals, SET50 worked example). Tier 2 #9 closed. 1 new alias (PCP). Index Concepts expanded. Resolves potential red-links from Synthetic Futures / Risk Reversal / Collar articles. |
 | 2026-07-19 | ingest | `raw/usdthb-futures.md` (inline user YAML spec block) → `wiki/USD-THB Futures.md` (concept: full contract spec, expiration mechanics with 11:00 AM Bangkok cutoff + WM/Reuters final settlement, roll convention with USDQ26→USDU26 worked example, worked long-contract P&L, 5 pitfalls, strategy uses table). Tier 4 #20 partial (USD/THB leg). 1 new alias (USDTHB). Index Concepts expanded. |
 | 2026-07-19 | ingest | `raw/set50-futures-and-options.md` (inline payload, two-product spec) → 2 wiki articles: `SET50 Futures` (concept, full S50 contract spec, what-moves-SET50 driver matrix, 4 strategy families, worked long-contract P&L) + `SET50 Options` (concept, S50C/S50P spec, 10-point strike grid, 820-call worked example, liquidity profile, Greek context table). Tier 4 #20 partial (S50 futures + options legs). 3 new aliases (S50, S50C, S50P). Index Concepts expanded. Cross-link to TFEX Market Structure, Futures — Basics, Options — Basics, Put-Call Parity, Volatility Risk Premium. |
+| 2026-07-19 | maintain | Batch 1 integrity pass (per `/Users/charuwatnaranong/.claude/plans/check-vault-scan-knowkedge-sprightly-wolf.md`): vault-wide risk-first reorder (Max Loss before Max Profit in 22/23 strategy articles; Strangle skipped — variant structure); vault-schema.md Strategy article structure §3-§4 reordered + alias table deduped (IV + MTM rows); bare `#strategy` tag dropped from Multi-Strategy Options; stale closed item removed from master-state.md Section 2; `.gitignore` extended for `**/.obsidian/workspace.json`; `wiki/log.md` + `wiki/index.md` olw-managed claim replaced with `/ingest`-skill-managed; Short Strangle + IV Skew aliases added; alias collisions resolved (IV → Implied Volatility only; S50/TFEX dropped from Futures — Basics); USD-THB title normalized to USD/THB Futures. |
+| 2026-07-19 | ingest | Batch 2 — Claude-drafted 6 raw notes + 6 wiki articles (per plan /Users/charuwatnaranong/.claude/plans/check-vault-scan-knowkedge-sprightly-wolf.md): `Open Interest` (closes OI red-link from Options Chain + schema alias), `Mark-to-Market` (MTM daily cash-settle mechanics), `Realized Volatility` (RV calc, IV-RV comparison), `Historical Volatility` (HV lookbacks, vol cones, SET50 regimes), `Gamma Exposure` (GEX dealer-positioning read, negative/positive flow), `Order Types` (market/limit/stop/stop-limit, GTC, TFEX specifics). Index Concepts expanded by 6. Aliases OI + GTC + TSD re-confirmed in schema table. Last red-link from Options Chain resolved. Sources: CBOE, CME, Hull, Investopedia, SpotGamma, SqueezeMetrics. |
+| 2026-07-19 | ingest | `raw/short-strangle.md` (inline user content) → `wiki/Short Strangle.md` (strategy: 12-section template with risk-first ordering — Max Loss before Max Profit. S50 worked example with 25,800/25,200 strikes + ฿7,000 credit + leverage compare. Conversion-to-iron-condor adjustment path. Cross-links to Strangle, Iron Condor, Volatility Risk Premium, Margin Mechanics, Assignment). Index Strategies expanded. Replaces red-link coverage previously closed via Strangle.md alias. Sources: optionseducation.org, optionalpha.com, optionsplaybook.com, Hull. |

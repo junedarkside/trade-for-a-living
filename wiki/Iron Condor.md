@@ -26,13 +26,13 @@ strangle).
 | 3 | Short | Call | OTM (upper short, e.g. call resistance) | Same |
 | 4 | Long | Call | Above short call (wing) | Same |
 
-## Max profit
-**Net credit received** (all four legs expire worthless).
-- Capped: yes — the credit is the most you make.
-
 ## Max loss
 **(Wing width − Net credit)**, per the **wider** side, × multiplier.
 - Capped: yes — the long wings define it.
+
+## Max profit
+**Net credit received** (all four legs expire worthless).
+- Capped: yes — the credit is the most you make.
 
 ## Breakeven
 **Two breakevens**: **Short put strike − Credit** and **Short call strike + Credit**.

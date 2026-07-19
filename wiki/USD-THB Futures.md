@@ -1,5 +1,5 @@
 ---
-title: USD-THB Futures
+title: USD/THB Futures
 type: concept
 status: learning
 tags: [futures, derivatives, market/thailand]

@@ -23,14 +23,14 @@ equity [[Covered Call]], but with a futures leg — no stock to be called away; 
 | 1 | Long | Future | e.g. S50U26 | — | Same as call |
 | 2 | Short (write) | Call option | e.g. S50U26 | Above spot (OTM) | 30–45 days typical |
 
-## Max profit
-**(Call strike − Future entry) + Premium received**, per contract (× multiplier).
-- Capped: yes — at the call strike.
-
 ## Max loss
 **(Future entry − 0) − Premium received** (if underlying falls to zero, theoretically).
 - Capped at the underlying going to zero; you still bear the linear downside of
   the future. The premium only partially offsets a big drop.
+
+## Max profit
+**(Call strike − Future entry) + Premium received**, per contract (× multiplier).
+- Capped: yes — at the call strike.
 
 ## Breakeven
 **Future entry − Premium received.** The premium lowers your cost basis.

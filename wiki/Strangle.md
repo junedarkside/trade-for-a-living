@@ -3,6 +3,7 @@ title: Strangle
 type: strategy
 status: learning
 tags: [options, derivatives, strategy/speculation, strategy/income, market/thailand]
+aliases: [Long Strangle, Short Strangle]
 ---
 
 # Strangle

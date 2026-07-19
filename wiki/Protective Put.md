@@ -22,13 +22,13 @@ market. Like buying insurance on a position you intend to keep.
 | 1 | Long | Stock (100 shares / lot) | — | — |
 | 2 | Long | Put | At/near spot (ATM) or below (OTM) | Covers the risk window |
 
-## Max profit
-**(Stock rises unlimitedly) − Premium paid.**
-- Capped: no (beyond the premium cost).
-
 ## Max loss
 **Stock purchase price − Strike + Premium paid.**
 - Capped: yes — the put guarantees an exit at the strike.
+
+## Max profit
+**(Stock rises unlimitedly) − Premium paid.**
+- Capped: no (beyond the premium cost).
 
 ## Breakeven
 **Stock purchase price + Premium paid** (premium raises your cost basis).

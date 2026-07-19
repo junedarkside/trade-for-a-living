@@ -23,13 +23,13 @@ call strike to pay for downside protection at the put strike.
 | 2 | Long | Put | Below spot (floor) | Same expiry |
 | 3 | Short | Call | Above spot (cap) | Same expiry |
 
-## Max profit
-**(Call strike − Stock purchase) − Net debit** (or + Net credit).
-- Capped at the call strike.
-
 ## Max loss
 **(Stock purchase − Put strike) + Net debit** (or − Net credit).
 - Capped at the put strike.
+
+## Max profit
+**(Call strike − Stock purchase) − Net debit** (or + Net credit).
+- Capped at the call strike.
 
 ## Breakeven
 **Stock purchase + Net debit** (− Net credit if the structure is done for a credit).

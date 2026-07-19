@@ -27,13 +27,13 @@ Canonical example below = **bull call spread** (bullish).
 | 1 | Long | Call | Lower (ITM/ATM) | Same |
 | 2 | Short | Call | Higher (OTM) | Same |
 
-## Max profit
-**(Strike width) − Net debit paid** (× multiplier).
-- Capped at the short strike.
-
 ## Max loss
 **Net debit paid** (× multiplier).
 - Capped — the most you can lose is what you paid.
+
+## Max profit
+**(Strike width) − Net debit paid** (× multiplier).
+- Capped at the short strike.
 
 ## Breakeven
 **Long strike + Net debit paid.**

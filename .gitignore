@@ -10,6 +10,8 @@
 # Obsidian workspace (per-machine)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
 
 # Heavy attachments (uncomment if vault gets large)
 # Attachments/*.png

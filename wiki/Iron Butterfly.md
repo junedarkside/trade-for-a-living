@@ -25,13 +25,13 @@ betting price sits very close to the strike at expiry.
 | 3 | Long | Call | Above ATM (wing) | Same |
 | 4 | Long | Put | Below ATM (wing) | Same |
 
-## Max profit
-**Net credit received** (price settles exactly at the body strike).
-- Capped: yes.
-
 ## Max loss
 **(Wing width − Net credit)** × multiplier.
 - Capped: yes — wings define it.
+
+## Max profit
+**Net credit received** (price settles exactly at the body strike).
+- Capped: yes.
 
 ## Breakeven
 **Two breakevens**: **Body strike + Net credit** and **Body strike − Net credit**.

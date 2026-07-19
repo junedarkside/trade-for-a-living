@@ -25,13 +25,13 @@ put strike.
 | 2 | Long | Put option | e.g. S50U26 | Below spot (floor) | Same as future |
 | 3 | Short | Call option | e.g. S50U26 | Above spot (cap) | Same as future |
 
-## Max profit
-**(Call strike − Future entry) − Net debit** (or + Net credit).
-- Capped at the call strike.
-
 ## Max loss
 **(Future entry − Put strike) + Net debit** (or − Net credit).
 - Capped at the put strike.
+
+## Max profit
+**(Call strike − Future entry) − Net debit** (or + Net credit).
+- Capped at the call strike.
 
 ## Breakeven
 **Future entry + Net debit** (− Net credit if structure is done for a credit).

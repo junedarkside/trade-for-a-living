@@ -24,13 +24,13 @@ a spread** (see [[Vertical Spread]] bull put spread, or a put spread collar).
 |-----|--------|------|--------|--------|
 | 1 | Short (write) | Put | OTM (below current spot) | Typically 30–45 days |
 
-## Max profit
-**Premium received.** Realized if the option expires worthless (spot ≥ strike).
-- Capped: yes — at the premium.
-
 ## Max loss
 **(Strike − 0) × 100 − Premium received** (theoretical max if underlying → 0).
 - Capped: yes — at the underlying going to zero (large loss in practice).
+
+## Max profit
+**Premium received.** Realized if the option expires worthless (spot ≥ strike).
+- Capped: yes — at the premium.
 
 ## Breakeven
 **Strike − Premium received** (per share).

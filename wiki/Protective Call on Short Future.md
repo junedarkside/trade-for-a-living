@@ -22,12 +22,12 @@ uncertainty. Mirror of the long-future [[Protective Put on Future]].
 | 1 | Short | Future | e.g. S50U26 | — | Same as call |
 | 2 | Long | Call option | e.g. S50U26 | At/near spot (ATM) or above (OTM) | Same as future |
 
-## Max profit
-**Uncapped** as the future falls, minus premium paid.
-
 ## Max loss
 **(Call strike − Future entry) + Premium paid**, per contract (× multiplier).
 - Capped: yes — the call lets you close-equivalent at the strike.
+
+## Max profit
+**Uncapped** as the future falls, minus premium paid.
 
 ## Breakeven
 **Future entry − Premium paid** (premium lowers your profit floor).

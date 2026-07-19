@@ -3,7 +3,7 @@ title: Futures — Basics
 type: concept
 status: learning
 tags: [futures, derivatives, market/thailand]
-aliases: [Futures, Futures Contract, S50, TFEX]
+aliases: [Futures, Futures Contract]
 ---
 
 # Futures — Basics

@@ -24,16 +24,16 @@ unlimited upside risk. Most often used **covered** (against a long stock positio
 |-----|--------|------|--------|--------|
 | 1 | Short (write) | Call | OTM (above current spot) | Typically 30–45 days |
 
-## Max profit
-**Premium received.** Realized if the option expires worthless (spot ≤ strike
-at expiry).
-- Capped: yes — at the premium.
-
 ## Max loss
 **Unlimited** (theoretically) for a naked short call. As spot rises, loss =
 (Spot − Strike) × 100 − Premium received.
 - Capped: no — only when paired with a long position (covered call) or a long
   call higher up (bull call spread).
+
+## Max profit
+**Premium received.** Realized if the option expires worthless (spot ≤ strike
+at expiry).
+- Capped: yes — at the premium.
 
 ## Breakeven
 **Strike + Premium received** (per share).

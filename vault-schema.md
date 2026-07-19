@@ -29,8 +29,8 @@ Every strategy article follows this order:
 
 1. **Overview** — one-paragraph plain-English description + market outlook it fits.
 2. **Legs** — markdown table: `| Leg | Action | Type | Strike | Expiry |`.
-3. **Max Profit** — formula + whether capped.
-4. **Max Loss** — formula + whether capped. **Always state max loss explicitly.**
+3. **Max Loss** — formula + whether capped. **Always state max loss explicitly** before max profit (risk-first principle).
+4. **Max Profit** — formula + whether capped.
 5. **Breakeven(s)** — formula(s).
 6. **Greeks behavior** — net delta/gamma/theta/vega sign and how it evolves.
 7. **Payoff shape** — short description or ASCII sketch at expiry.
@@ -52,7 +52,7 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 
 | Alias | Canonical |
 |-------|-----------|
-| SET50, S50, SET 50 Index | SET 50 Index |
+| SET50, S50, SET 50 Index | SET50 Futures |
 | TFEX | Thailand Futures Exchange |
 | CSP | Cash-Secured Put |
 | CC | Covered Call |
@@ -89,20 +89,21 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 | K, strike | Strike Price |
 | Prem | Premium |
 | ITM, ATM, OTM | Moneyness |
-| IV, EV, time-value | Intrinsic and Extrinsic Value |
+| EV, time-value | Intrinsic and Extrinsic Value |
 | NVDR | Non-Voting Depository Receipt |
 | TSD | Thailand Securities Depository |
 | GTC | Good-Till-Cancelled |
 | MTM | Mark-to-Market |
 | SSF | Single-Stock Future |
 | VRP | Volatility Risk Premium |
-| IV | Implied Volatility |
 | RV | Realized Volatility |
 | HV | Historical Volatility |
 | GEX | Gamma Exposure |
 | IM | Initial Margin |
 | MM | Maintenance Margin |
-| MTM | Mark-to-Market |
+| OI | Open Interest |
+| GTC | Good-Till-Cancelled |
+| TSD | Thailand Securities Depository |
 | Δ, delta | Delta |
 | Γ, gamma | Gamma |
 | Θ, theta | Theta |

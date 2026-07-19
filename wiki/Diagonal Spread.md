@@ -27,16 +27,16 @@ expressing a directional view via the long back-month option.
 
 Mirror for **Put Diagonal** (bearish bias): short near ATM put + long far lower-strike put.
 
+## Max loss
+**Net debit paid** (long back-month premium − short near-month premium received),
+realized in adverse paths.
+- Capped: yes — at the net debit (assuming both legs are options).
+
 ## Max profit
 Path-dependent. Achieved when the underlying is **between the two strikes** at
 short-leg expiry — the short expires worthless, and the long retains time value.
 Beyond the long strike → unlimited (long call) but locked by short expiry.
 Below the short strike → capped loss.
-
-## Max loss
-**Net debit paid** (long back-month premium − short near-month premium received),
-realized in adverse paths.
-- Capped: yes — at the net debit (assuming both legs are options).
 
 ## Breakeven
 Multiple break-even zones; depends on strike spacing and IV. Path-dependent.

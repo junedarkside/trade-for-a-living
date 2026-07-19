@@ -26,13 +26,13 @@ directional delta.
 | 2 | Short | Put option | e.g. S50U26 | Below spot (OTM) | Same as future |
 | 3 | Long | Call option | e.g. S50U26 | Above spot (OTM) | Same as future |
 
-## Max profit
-**Uncapped** above the call strike, net of (Call premium − Put premium received).
-
 ## Max loss
 **(Future entry − Put strike) − (Call premium − Put premium)**, per contract
 (× multiplier).
 - Capped: yes — short put creates a floor.
+
+## Max profit
+**Uncapped** above the call strike, net of (Call premium − Put premium received).
 
 ## Breakeven
 **Future entry + (Call premium − Put premium received)** if the net cost is a debit;

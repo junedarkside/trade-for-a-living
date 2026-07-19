@@ -23,13 +23,13 @@ helps even before the move.
 | 1 | Long | Call | ATM (≈ spot) | Event-window expiry |
 | 2 | Long | Put | ATM (same strike) | Same |
 
-## Max profit
-**Unlimited** (the call side runs as spot rallies).
-- Capped: no.
-
 ## Max loss
 **Total premium paid** (call + put).
 - Capped: yes — both legs can expire worthless if spot stays at the strike.
+
+## Max profit
+**Unlimited** (the call side runs as spot rallies).
+- Capped: no.
 
 ## Breakeven
 **Two breakevens**: **Strike + Total premium** (upside) and
