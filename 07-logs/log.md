@@ -4,6 +4,8 @@ Daily session-end entries. Newest at top.
 
 ---
 
+## [2026-07-19] session-end | Deep research upgrade: Strategy Selection Framework — 130 → 321 lines, 14 sources, Kelly-IV hybrid sizing rules
+
 ## [2026-07-19] session-end | Phase 2 synthesis layer — 4 new pro-trader articles, GEX+OI expanded, 97 articles total
 
 ## [2026-07-19] session-end | Batch 7 reinforcement — worked examples, source upgrades, backlinks, tags
