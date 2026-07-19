@@ -6,6 +6,47 @@ Newest at top.
 
 ---
 
+## Session #10 — 2026-07-19
+
+**Achieved:**
+- Built TFEX live data pipeline: `tools/fetch_tfex.py` + `tools/.venv` (Python venv).
+- Sources: yfinance (SET50 spot, USD/THB spot) + TFEX official HTML (S50 options chain EOD + futures during market hours).
+- Fixed options chain parser — now captures **call + put** sides separately (23-col mirrored table split at strike index 11). Greeks (Δ Γ Θ V IV), OI, Vol per side.
+- Created `/fetch-tfex` skill: `.claude/skills/fetch-tfex/SKILL.md` — runs script, reads JSON, renders structured market summary with ATM zone + OI walls + Greeks.
+- Updated `.gitignore` (tools/data/*.json + tools/.venv/).
+
+**Commit:** pending
+
+---
+
+## Session #9 — 2026-07-19
+
+**Achieved:** Deep Research: Edge & Expectancy — `wiki/Edge & Expectancy.md` 126 → 267 lines. Empirical win rates, SPA test, Triple Penance Rule, Kelly math. `raw/edge-and-expectancy.md` full rewrite. 14 sources.
+
+**Commit:** `f499b2f`
+
+---
+
+## Session #8 — 2026-07-19
+
+**Achieved:** Deep Research: Strategy Selection Framework — `wiki/Strategy Selection Framework.md` 130 → 321 lines. 14 sources, Kelly-IV hybrid sizing rules, Hurst exponent, regime base rates, Thai specifics.
+
+**Commit:** `e273b8c`
+
+---
+
+## Session #7 — 2026-07-19
+
+**Achieved:** Phase 2 synthesis layer — 4 new pro-trader articles (Options Flow Analysis, Edge & Expectancy, Strategy Selection Framework, Execution & Slippage), GEX + OI expanded. Vault 93 → 97 articles.
+
+---
+
+## Session #6 — 2026-07-19
+
+**Achieved:** Batch 7 reinforcement — worked examples, source upgrades, backlinks, tags. 6 status promotions (Greeks, Risk Management, VRP, Put-Call Parity, Options Risk Management, Implied Volatility → reviewed).
+
+---
+
 ## Session #5 — 2026-07-19
 
 **Achieved:**

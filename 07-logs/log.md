@@ -4,6 +4,8 @@ Daily session-end entries. Newest at top.
 
 ---
 
+## [2026-07-19] session-end | TFEX data pipeline + /fetch-tfex skill — call+put chain, Greeks, OI walls, advisory mode
+
 ## [2026-07-19] session-end | Deep research upgrade: Edge & Expectancy — 126 → 267 lines, empirical win rates, SPA test, Triple Penance Rule, Kelly math
 
 ## [2026-07-19] session-end | Deep research upgrade: Strategy Selection Framework — 130 → 321 lines, 14 sources, Kelly-IV hybrid sizing rules

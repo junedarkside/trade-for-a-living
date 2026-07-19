@@ -15,3 +15,7 @@
 
 # Heavy attachments (uncomment if vault gets large)
 # Attachments/*.png
+
+# Data pipeline outputs + venv
+tools/data/*.json
+tools/.venv/

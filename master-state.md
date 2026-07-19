@@ -6,36 +6,20 @@
 
 ## Section 1 — Session Handoff
 
-**Updated:** 2026-07-19 (session #8)
+**Updated:** 2026-07-19 (session #10)
 
-**Achieved this session (#9) — Deep Research: Edge & Expectancy:**
-- 3-agent parallel research: expectancy math + R-multiples, empirical win rates, edge validation methodology.
-- `wiki/Edge & Expectancy.md`: 126 → **267 lines**. Added: empirical win rates (iron condor managed 82%, strangle 75–80%); butterfly > condor on expectancy; VRP magnitude (85% IV > RV, half-life 3.1d); walk-forward efficiency table; White's RC + Hansen's SPA data-snooping tests; drawdown non-linearity + Triple Penance Rule; Monte Carlo robustness; Kelly fractions with drawdown math; 7-stage professional validation gate. 14 sources.
-- `raw/edge-and-expectancy.md`: full rewrite from research.
-
-**Achieved previous session (#8) — Deep Research: Strategy Selection Framework:**
-- 3-agent parallel research: vol regime classification (TastyTrade backtested thresholds, IV Rank vs IV Percentile), trend regime classification (Hurst exponent, ADX source, GEX, regime base rates), Thai SET50 specifics + position sizing by regime (Wysocki 2025 Kelly-IV hybrid).
-- `wiki/Strategy Selection Framework.md`: 130 → **321 lines**. Added IV Rank/Percentile distinction, calibrated thresholds with win-rate data, Hurst exponent classifier, regime base rates, position sizing per quadrant (Kelly-IV hybrid), regime transition signals, Thai-specific TVIX/SEV/AGARCH/election cycle. 14 sources cited.
-- `raw/strategy-selection-framework.md`: full rewrite from research.
-- **Article status: `learning` → ready to promote to `reviewed` after one live trading cycle.**
-
-**Achieved previous session (#7) — Phase 2 Synthesis Layer:**
-- **4 new wiki articles** (closes pro-trader synthesis gap):
-  - `Options Flow Analysis` — UOA, PCR, dealer positioning, TFEX OI report reading
-  - `Edge & Expectancy` — expectancy formula, win%/R:R tradeoff, sample size math, SET50 iron condor example
-  - `Strategy Selection Framework` — 2×2 regime matrix (vol × trend), SET50 indicators per axis
-  - `Execution & Slippage` — TFEX bid-ask by product, legging risk, commission table, cost example
-- **2 articles expanded:**
-  - `Gamma Exposure` — full GEX pinning mechanics, dealer hedge chain, gamma flip point, worked S50 pin example
-  - `Open Interest` — OI trend signals table, roll OI mechanics, roll vs new positioning distinction
-- **Vault:** 93 → **97 wiki articles**.
-- **Vault assessment:** Gap between intermediate and pro is now closed for knowledge base. Remaining gap is execution (live trading experience) not knowledge.
+**Achieved this session (#10) — TFEX Data Pipeline + /fetch-tfex skill:**
+- `tools/fetch_tfex.py` — fetches SET50 spot (yfinance, 15-min delay), USD/THB spot, S50 options chain EOD (TFEX official), S50 futures + USD/THB futures (live during market hours).
+- Options chain parser fixed: captures **call + put** both sides (23-col mirrored table). Fields: Series, OI, Vol, Θ, V, Γ, Δ, IV, Bid, Offer, Last per side.
+- `tools/.venv` — Python venv with requests, bs4, yfinance, pandas.
+- `.claude/skills/fetch-tfex/SKILL.md` — `/fetch-tfex` skill: runs script → reads JSON → renders ATM zone + OI walls + Greeks summary, closes with advisory prompt.
+- `.gitignore` updated (tools/data/*.json + tools/.venv/).
 
 **Resume point:**
-1. **Live trading** — vault is knowledge-complete for pro level. Real edge comes from execution experience, journal data, and refining strategy selection via actual P&L.
-2. **Status promotions** — 93 articles still at `learning`; promote as you trade and master each concept.
+1. **Live advisory** — run `/fetch-tfex` any session → vault advises on live market. Best during TFEX hours (Mon–Fri 09:45–16:30 + 17:00–21:45 ICT) for futures data.
+2. **Status promotions** — 97 articles at `learning`; promote as you trade and master each concept.
 3. **wrapup skill verify** — confirm `.claude/skills/wrapup/skill.md` matches CLAUDE.md L82-88 SOP.
-4. **Future additions (on demand):** Portfolio Greeks Management article; Oil Futures if TFEX relists; advanced skew trading playbook.
+4. **Future additions (on demand):** Portfolio Greeks Management article; Oil Futures if TFEX relists; advanced skew trading playbook; call-side OI wall tracking.
 
 ## Section 2 — Loose Ends
 
