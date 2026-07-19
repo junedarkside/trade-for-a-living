@@ -52,7 +52,7 @@ Map short forms to canonical article names so broken `[[wikilinks]]` self-heal:
 
 | Alias | Canonical |
 |-------|-----------|
-| SET50, S50, SET 50 Index | SET50 Futures |
+| SET50, S50, SET 50 Index | SET 50 Index |
 | TFEX | Thailand Futures Exchange |
 | CSP | Cash-Secured Put |
 | CC | Covered Call |
